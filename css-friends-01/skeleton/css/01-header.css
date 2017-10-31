@@ -1,0 +1,47 @@
+/* PHASE 1: Header */
+body {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  color: white;
+}
+
+header h1 {
+  padding: 10px;
+  border: solid white 1px;
+  margin-left: 40px;
+}
+
+nav {
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+nav ul li {
+  border-left: solid white 1px;
+}
+
+nav ul > :last-child {
+  border-right: solid white 1px;
+}
+
+a:hover {
+  background-color: black;
+}
+
+a {
+  display: block;
+
+  padding: 10px;
+
+}
